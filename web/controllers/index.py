@@ -1,12 +1,8 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Date: '2020/02/24 11:41'
+from flask import Blueprint, render_template
 
-from flask import Blueprint
+route_index = Blueprint('index_page', __name__)
 
-web_index = Blueprint("web_index", __name__)
-
-
-@web_index.route("/")
+@route_index.route("/")
 def index():
-    return "Index."
+    return render_template("index/index.html")
