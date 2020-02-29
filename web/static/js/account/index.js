@@ -48,4 +48,5 @@ var account_index_ops = {
 
 $(document).ready( function(){
     account_index_ops.init();
+    console.log(222)
 } );

@@ -24,3 +24,5 @@ STATUS_MAPPING = {
     "1": "正常",
     "0": "已删除"
 }
+
+ACCESS_COUNT = 5

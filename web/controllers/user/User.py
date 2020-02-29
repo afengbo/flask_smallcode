@@ -38,6 +38,11 @@ def login():
         ret['msg'] = "请输入正确的登录用户名和密码~~"
         return jsonify(ret)
 
+    if user_info.status != 1:
+        ret['code'] = -1
+        ret['msg'] = "账号已被禁用，请联系管理员处理~~"
+        return jsonify(ret)
+
     if user_info.login_pwd != UserService.genePwd(login_pwd, user_info.login_salt):
         ret['code'] = -1
         ret['msg'] = "请输入正确的登录用户名和密码~~"

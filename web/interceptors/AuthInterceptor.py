@@ -6,6 +6,7 @@ import re
 from flask import request, redirect, g
 
 from application import app
+from common.libs.LogService import LogService
 from common.libs.UrlManager import UrlManager
 
 from common.libs.userService import UserService
@@ -29,7 +30,9 @@ def before_request():
     g.current_user = None
     if user_info:
         g.current_user = user_info
-    if not user_info:
+        # 加入日志
+        LogService.addAccessLog()
+    else:
         return redirect(UrlManager.buildUrl('/user/login'))
     return
 
@@ -51,6 +54,9 @@ def if_login():
         return False
 
     if auth_info[0] != UserService.geneAuthCode(user_info):
+        return False
+
+    if user_info.status != 1:
         return False
 
     return user_info

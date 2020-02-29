@@ -46,7 +46,12 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-									<tr><td colspan="2">暂无数据</td></tr>
+                                    {% for access in access_list %}
+									<tr>
+                                        <td>{{ access.created_time }}</td>
+                                        <td>{{ access.target_url }}</td>
+                                    </tr>
+                                    {% endfor %}
                                      </tbody>
                                 </table>
                             </div>

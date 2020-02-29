@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 from flask import Blueprint, request, redirect, jsonify
-from sqlalchemy import  or_
+from sqlalchemy import or_, desc
 
 from common.libs.Helper import ops_render, iPagination, get_current_time
 from common.libs.UrlManager import UrlManager
 from common.libs.userService import UserService
+from common.models.log.AppAccessLog import AppAccessLog
 from common.models.user import User
 
 from application import app, db
@@ -58,8 +59,11 @@ def info():
     info = User.query.filter_by(uid=uid).first()
     if not info:
         return redirect(reback_url)
-
     res_data['info'] = info
+
+    access_count = app.config['ACCESS_COUNT']
+    access_list = AppAccessLog.query.filter_by(uid=uid).order_by(desc(AppAccessLog.created_time)).all()[0:access_count]
+    res_data['access_list'] = access_list
     return ops_render("account/info.html", res_data)
 
 
