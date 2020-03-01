@@ -56,5 +56,31 @@ App({
         return {
             'content-type': 'application/x-www-form-urlencoded'
         }
+    },
+    buildUrl:function( path ,params ){
+        var url = this.globalData.domain + path;
+        var _paramUrl = "";
+        if(  params ){
+            _paramUrl = Object.keys( params ).map( function( k ){
+                return [ encodeURIComponent( k ),encodeURIComponent( params[ k ] ) ].join("=");
+            }).join("&");
+            _paramUrl = "?" + _paramUrl;
+        }
+        return url + _paramUrl;
+    },
+    getCache: function (key) {
+        var value = undefined;
+        try {
+          var value = wx.getStorageSync('key');
+        } catch (e) {
+          // Do something when catch error
+        }
+        return value
+    },
+    setCache: function (key, value) {
+        wx.setStorage({
+          key: key,
+          data: value
+        });
     }
 });
