@@ -175,10 +175,10 @@ def ops():
     elif act == "recover":
         user_info.status = 1
 
-    if user_info and user_info.uid == 1:
-        resp['code'] = -1
-        resp['msg'] = "该用户是演示账号，不准操作账号~~"
-        return jsonify(resp)
+    # if user_info and user_info.uid == 1:
+    #     resp['code'] = -1
+    #     resp['msg'] = "该用户是演示账号，不准操作账号~~"
+    #     return jsonify(resp)
 
     user_info.update_time = get_current_time()
     db.session.add(user_info)

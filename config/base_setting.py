@@ -32,3 +32,13 @@ MINA_APP = {
     'appid': 'wxd6d468b482bfb735',
     'appkey': '4f0c732dbd9891c34062e27437c73fe0'
 }
+
+UPLOAD = {
+    'ext': ['jpg', 'gif', 'jpeg', 'png', 'bmp'],
+    'prefix_path': '/web/static/upload/',
+    'prefix_url': '/static/upload/'
+}
+
+APP = {
+    "domain": "http://192.168.33.79:5001/"
+}

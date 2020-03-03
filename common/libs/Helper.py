@@ -63,3 +63,19 @@ def ops_render(template, context={}):
 def get_current_time(format="%Y-%m-%d %H-%M-%S"):
     # 获取当前时间
     return datetime.now().strftime(format)
+
+
+def get_dict_by_field(db_model, select_field, key_field, id_list):
+    ret = {}
+    query = db_model.query
+    if id_list and len(id_list) > 0:
+        query = query.filter_by(select_field.in_(id_list))
+    list = query.all()
+    if not list:
+        return ret
+    for item in list:
+        if not hasattr(item, key_field):
+            break
+        ret[getattr(item, key_field)] = item
+
+    return ret
