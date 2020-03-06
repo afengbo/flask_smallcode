@@ -32,11 +32,16 @@ STATUS_MAPPING = {
 ACCESS_COUNT = 5
 
 MINA_APP = {
+<<<<<<< HEAD
     'appid': 'wxd6d468b482bfb735',
     'appkey': '4f0c732dbd9891c34062e27437c73fe0',
     'paykey': '',
     'mch_id': '',
     'callback_url': '/api/order/callback'
+=======
+    'appid': '',
+    'appkey': ''
+>>>>>>> 01ce0722864163f2878c5876ba6cd39e9c8e2d9b
 }
 
 UPLOAD = {
@@ -48,6 +53,7 @@ UPLOAD = {
 APP = {
     "domain": "http://192.168.33.79:5001/"
 }
+<<<<<<< HEAD
 
 PAY_STATUS_MAPPING = {
     "1": "已支付",
@@ -63,3 +69,5 @@ PAY_STATUS_DISPLAY_MAPPING = {
     "-6": "待确认",
     "-5": "待评价",
 }
+=======
+>>>>>>> 01ce0722864163f2878c5876ba6cd39e9c8e2d9b

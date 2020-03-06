@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba3373d-b146-430d-9117-21a952b4f6e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mina/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mina/.idea/mina.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mina/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mina/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mina/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/6e565f2b-e4bd-4382-817c-4eb0a1344d6c.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/6e565f2b-e4bd-4382-817c-4eb0a1344d6c.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/libs/Helper.py" afterPath="$PROJECT_DIR$/common/libs/Helper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/food/FoodSaleChangeLog.py" afterPath="$PROJECT_DIR$/common/models/food/FoodSaleChangeLog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/food/FoodStockChangeLog.py" afterPath="$PROJECT_DIR$/common/models/food/FoodStockChangeLog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/log/AppAccessLog.py" afterPath="$PROJECT_DIR$/common/models/log/AppAccessLog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/log/AppErrorLog.py" afterPath="$PROJECT_DIR$/common/models/log/AppErrorLog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/member/OauthMemberBind.py" afterPath="$PROJECT_DIR$/common/models/member/OauthMemberBind.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/base_setting.py" afterPath="$PROJECT_DIR$/config/base_setting.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/app.js" afterPath="$PROJECT_DIR$/mina/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/app.json" afterPath="$PROJECT_DIR$/mina/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/cart/index.js" afterPath="$PROJECT_DIR$/mina/pages/cart/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/cart/index.wxml" afterPath="$PROJECT_DIR$/mina/pages/cart/index.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/food/index.js" afterPath="$PROJECT_DIR$/mina/pages/food/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/food/index.json" afterPath="$PROJECT_DIR$/mina/pages/food/index.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/food/index.wxml" afterPath="$PROJECT_DIR$/mina/pages/food/index.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/food/info.js" afterPath="$PROJECT_DIR$/mina/pages/food/info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/food/info.wxml" afterPath="$PROJECT_DIR$/mina/pages/food/info.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/index/index.js" afterPath="$PROJECT_DIR$/mina/pages/index/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/index/index.wxml" afterPath="$PROJECT_DIR$/mina/pages/index/index.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/addressList.js" afterPath="$PROJECT_DIR$/mina/pages/my/addressList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/addressList.wxml" afterPath="$PROJECT_DIR$/mina/pages/my/addressList.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/addressSet.js" afterPath="$PROJECT_DIR$/mina/pages/my/addressSet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/addressSet.wxml" afterPath="$PROJECT_DIR$/mina/pages/my/addressSet.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/comment.js" afterPath="$PROJECT_DIR$/mina/pages/my/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/comment.wxml" afterPath="$PROJECT_DIR$/mina/pages/my/comment.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/commentList.js" afterPath="$PROJECT_DIR$/mina/pages/my/commentList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/index.js" afterPath="$PROJECT_DIR$/mina/pages/my/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/order_info.js" afterPath="$PROJECT_DIR$/mina/pages/my/order_info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/order_info.wxml" afterPath="$PROJECT_DIR$/mina/pages/my/order_info.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/order_list.js" afterPath="$PROJECT_DIR$/mina/pages/my/order_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/my/order_list.wxml" afterPath="$PROJECT_DIR$/mina/pages/my/order_list.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/order/index.js" afterPath="$PROJECT_DIR$/mina/pages/order/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/pages/order/index.wxml" afterPath="$PROJECT_DIR$/mina/pages/order/index.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mina/utils/util.js" afterPath="$PROJECT_DIR$/mina/utils/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/api/Member.py" afterPath="$PROJECT_DIR$/web/controllers/api/Member.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/api/__init__.py" afterPath="$PROJECT_DIR$/web/controllers/api/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/finance/Finance.py" afterPath="$PROJECT_DIR$/web/controllers/finance/Finance.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/food/Food.py" afterPath="$PROJECT_DIR$/web/controllers/food/Food.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/index.py" afterPath="$PROJECT_DIR$/web/controllers/index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/member/Member.py" afterPath="$PROJECT_DIR$/web/controllers/member/Member.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/stat/Stat.py" afterPath="$PROJECT_DIR$/web/controllers/stat/Stat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/interceptors/AuthInterceptor.py" afterPath="$PROJECT_DIR$/web/interceptors/AuthInterceptor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/js/account/index.js" afterPath="$PROJECT_DIR$/web/static/js/account/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/js/account/set.js" afterPath="$PROJECT_DIR$/web/static/js/account/set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/js/food/cat_set.js" afterPath="$PROJECT_DIR$/web/static/js/food/cat_set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/js/member/index.js" afterPath="$PROJECT_DIR$/web/static/js/member/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/js/user/edit.js" afterPath="$PROJECT_DIR$/web/static/js/user/edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/js/user/login.js" afterPath="$PROJECT_DIR$/web/static/js/user/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/js/user/reset_pwd.js" afterPath="$PROJECT_DIR$/web/static/js/user/reset_pwd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/account/index.html" afterPath="$PROJECT_DIR$/web/templates/account/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/account/info.html" afterPath="$PROJECT_DIR$/web/templates/account/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/account/set.html" afterPath="$PROJECT_DIR$/web/templates/account/set.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/common/pagenation.html" afterPath="$PROJECT_DIR$/web/templates/common/pagenation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/common/tab_user.html" afterPath="$PROJECT_DIR$/web/templates/common/tab_user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/finance/account.html" afterPath="$PROJECT_DIR$/web/templates/finance/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/finance/index.html" afterPath="$PROJECT_DIR$/web/templates/finance/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/finance/pay_info.html" afterPath="$PROJECT_DIR$/web/templates/finance/pay_info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/food/cat.html" afterPath="$PROJECT_DIR$/web/templates/food/cat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/food/cat_set.html" afterPath="$PROJECT_DIR$/web/templates/food/cat_set.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/food/index.html" afterPath="$PROJECT_DIR$/web/templates/food/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/food/set.html" afterPath="$PROJECT_DIR$/web/templates/food/set.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/index/index.html" afterPath="$PROJECT_DIR$/web/templates/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/member/comment.html" afterPath="$PROJECT_DIR$/web/templates/member/comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/member/index.html" afterPath="$PROJECT_DIR$/web/templates/member/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/member/info.html" afterPath="$PROJECT_DIR$/web/templates/member/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/member/set.html" afterPath="$PROJECT_DIR$/web/templates/member/set.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/stat/food.html" afterPath="$PROJECT_DIR$/web/templates/stat/food.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/stat/index.html" afterPath="$PROJECT_DIR$/web/templates/stat/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/stat/member.html" afterPath="$PROJECT_DIR$/web/templates/stat/member.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/stat/share.html" afterPath="$PROJECT_DIR$/web/templates/stat/share.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/user/edit.html" afterPath="$PROJECT_DIR$/web/templates/user/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/user/login.html" afterPath="$PROJECT_DIR$/web/templates/user/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/user/reset_pwd.html" afterPath="$PROJECT_DIR$/web/templates/user/reset_pwd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.py" afterPath="$PROJECT_DIR$/www.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,28 +33,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chart.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/static/js/chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1320">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -285,6 +184,12 @@
               <item name="food" type="b2602c69:ProjectViewProjectNode" />
               <item name="food" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -389,7 +294,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32688928" sideWeight="0.5030488" order="7" side_tool="true" content_ui="tabs" />
@@ -397,7 +301,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14234875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4466192" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17759146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24771342" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -765,16 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="80" column="73" lean-forward="true" selection-start-line="80" selection-start-column="73" selection-end-line="80" selection-end-column="73" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -848,18 +742,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/index/index.html">
+    <entry file="file://$PROJECT_DIR$/web/controllers/chart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="-490">
+          <caret line="80" column="73" lean-forward="true" selection-start-line="80" selection-start-column="73" selection-end-line="80" selection-end-column="73" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1320">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="2046">
+          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="55" />
           <folding />
         </state>
       </provider>
