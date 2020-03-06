@@ -26,6 +26,9 @@ def before_request():
     if pattern.match(path):
         return
 
+    if '/api' in path:
+        return
+
     user_info = if_login()
     g.current_user = None
     if user_info:

@@ -30,9 +30,9 @@ var member_index_ops = {
                     dataType:'json',
                     success:function( res ){
                         var callback = null;
-                        if( res.code === 200 ){
+                        if( res.code == 200 ){
                             callback = function(){
-                                window.location.reload();
+                                window.location.href = window.location.href;
                             }
                         }
                         common_ops.alert( res.msg,callback );
@@ -48,5 +48,4 @@ var member_index_ops = {
 
 $(document).ready( function(){
     member_index_ops.init();
-    console.log(222)
-});
+} );

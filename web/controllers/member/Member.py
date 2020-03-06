@@ -6,9 +6,10 @@ from common.libs.UrlManager import UrlManager
 from common.models.member.Member import Member
 from application import app, db
 
-route_member = Blueprint( 'member_page',__name__ )
+route_member = Blueprint('member_page', __name__)
 
-@route_member.route( "/index" )
+
+@route_member.route("/index")
 def index():
     resp_data = {}
     req = request.values
@@ -17,7 +18,10 @@ def index():
     query = Member.query
 
     if 'mix_kw' in req:
-        rule = query.filter(Member.nickname.ilike("%{0}%".format(req['mix_kw'])))
+        rule = query.filter(
+            Member.nickname.ilike(
+                "%{0}%".format(
+                    req['mix_kw'])))
         query = query.filter(rule)
     if 'status' in req and int(req['status']) > -1:
         query = query.filter_by(status=int(req['status']))
@@ -31,16 +35,19 @@ def index():
     }
     pages = iPagination(page_params)
     offset = (page - 1) * app.config['PAGE_SIZE']
-    member_list = query.order_by(Member.id.desc()).offset(offset).limit(app.config['PAGE_SIZE']).all()
+    member_list = query.order_by(
+        Member.id.desc()).offset(offset).limit(
+        app.config['PAGE_SIZE']).all()
 
     resp_data['list'] = member_list
     resp_data['pages'] = pages
     resp_data['search_con'] = req
     resp_data['status_mapping'] = app.config['STATUS_MAPPING']
     resp_data['current'] = 'index'
-    return ops_render( "member/index.html", resp_data)
+    return ops_render("member/index.html", resp_data)
 
-@route_member.route( "/info" )
+
+@route_member.route("/info")
 def info():
     res_data = {}
     req = request.args
@@ -55,10 +62,10 @@ def info():
 
     res_data['info'] = info
     res_data['current'] = 'index'
-    return ops_render( "member/info.html", res_data)
+    return ops_render("member/info.html", res_data)
 
 
-@route_member.route( "/set", methods=['GET', 'POST'])
+@route_member.route("/set", methods=['GET', 'POST'])
 def set():
     if request.method == "GET":
         resp_data = {}
@@ -102,9 +109,9 @@ def set():
     return jsonify(resp)
 
 
-@route_member.route( "/comment" )
+@route_member.route("/comment")
 def comment():
-    return ops_render( "member/comment.html" )
+    return ops_render("member/comment.html")
 
 
 @route_member.route("/ops", methods=['POST'])

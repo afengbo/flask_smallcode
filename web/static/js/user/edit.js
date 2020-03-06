@@ -11,10 +11,10 @@ var user_edit_ops = {
                 return;
             }
 
-            var nickname_target = $(".user_edit_wrap input[name='nickname']");
+            var nickname_target = $(".user_edit_wrap input[name=nickname]");
             var nickname = nickname_target.val();
 
-            var email_target = $(".user_edit_wrap input[name='email']");
+            var email_target = $(".user_edit_wrap input[name=email]");
             var email = email_target.val();
 
             if( !nickname || nickname.length < 2 ){
@@ -42,9 +42,9 @@ var user_edit_ops = {
                 success:function( res ){
                     btn_target.removeClass("disabled");
                     var callback = null;
-                    if( res.code === 200 ){
+                    if( res.code == 200 ){
                         callback = function(){
-                            window.location.reload();
+                            window.location.href = window.location.href;
                         }
                     }
                     common_ops.alert( res.msg,callback );

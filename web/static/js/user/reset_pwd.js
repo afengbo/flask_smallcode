@@ -14,6 +14,7 @@ var mod_pwd_ops = {
             var old_password = $("#old_password").val();
             var new_password = $("#new_password").val();
 
+
             if( !old_password ){
                 common_ops.alert( "请输入原密码~~" );
                 return false;
@@ -21,11 +22,6 @@ var mod_pwd_ops = {
 
             if( !new_password || new_password.length < 6 ){
                 common_ops.alert( "请输入不少于6位的新密码~~" );
-                return false;
-            }
-
-            if( new_password === old_password ){
-                common_ops.alert( "新密码不能与旧密码相同~~" );
                 return false;
             }
 
@@ -44,9 +40,9 @@ var mod_pwd_ops = {
                 success:function( res ){
                     btn_target.removeClass("disabled");
                     var callback = null;
-                    if( res.code === 200 ){
+                    if( res.code == 200 ){
                         callback = function(){
-                            window.location.reload();
+                            window.location.href = window.location.href;
                         }
                     }
                     common_ops.alert( res.msg,callback );

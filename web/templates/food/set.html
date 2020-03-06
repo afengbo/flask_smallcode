@@ -1,19 +1,6 @@
 {% extends "common/layout_main.html" %}
 {% block content %}
-<div class="row  border-bottom">
-    <div class="col-lg-12">
-        <div class="tab_title">
-            <ul class="nav nav-pills">
-                <li class="current">
-                    <a href="{{ buildUrl('/food/index') }}">美食列表</a>
-                </li>
-                <li>
-                    <a href="{{ buildUrl('/food/cat') }}">分类列表</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+{% include "common/tab_food.html" %}
 <div class="row mg-t20 wrap_food_set" style="">
     <div class="col-lg-12" style="">
         <h2 class="text-center">设置</h2>
@@ -24,9 +11,9 @@
                     <select name="cat_id" class="form-control select2-hidden-accessible" tabindex="-1"
                             aria-hidden="true">
                         <option value="0">请选择分类</option>
-                        {% for cat in cat_list %}
-                        <option value="{{ cat.id }}" {% if cat.id == info.cat_id %} selected {% endif %}>{{ cat.name }}</option>
-                        {% endfor %}
+                       {% for item in cat_list %}
+                           <option value="{{ item.id }}" {%  if item.id == info.cat_id %} selected {% endif %}>{{ item.name }}</option>
+                       {% endfor %}
                     </select>
                 </div>
             </div>
@@ -95,20 +82,21 @@
 </div>
 <iframe name="upload_file" class="hide"></iframe>
 {% endblock %}
-{% block css %}
-<link rel="stylesheet" href="{{ buildStaticUrl('/plugins/select2/select2.min.css') }}">
-<link rel="stylesheet" href="{{ buildStaticUrl('/plugins/tagsinput/jquery.tagsinput.min.css') }}">
+{%  block css %}
+<link href="{{ buildStaticUrl( '/plugins/select2/select2.min.css' ) }}" rel="stylesheet">
+<link href="{{ buildStaticUrl( '/plugins/tagsinput/jquery.tagsinput.min.css' ) }}" rel="stylesheet">
 {% endblock %}
 {% block js %}
-<script src="{{ buildStaticUrl('/plugins/ueditor/ueditor.config.js') }}"></script>
-<script src="{{ buildStaticUrl('/plugins/ueditor/ueditor.all.min.js') }}"></script>
-<script src="{{ buildStaticUrl('/plugins/ueditor/lang/zh-cn/zh-cn.js') }}"></script>
+<script src="{{ buildStaticUrl( '/plugins/ueditor/ueditor.config.js' ) }}"></script>
+<script src="{{ buildStaticUrl( '/plugins/ueditor/ueditor.all.min.js' ) }}"></script>
+<script src="{{ buildStaticUrl( '/plugins/ueditor/lang/zh-cn/zh-cn.js' ) }}"></script>
 
-<script src="{{ buildStaticUrl('/plugins/select2/select2.pinyin.js') }}"></script>
-<script src="{{ buildStaticUrl('/plugins/select2/pinyin.core.js') }}"></script>
-<script src="{{ buildStaticUrl('/plugins/select2/zh-CN.js') }}"></script>
+<script src="{{ buildStaticUrl( '/plugins/select2/select2.pinyin.js' ) }}"></script>
+<script src="{{ buildStaticUrl( '/plugins/select2/zh-CN.js' ) }}"></script>
+<script src="{{ buildStaticUrl( '/plugins/select2/pinyin.core.js' ) }}"></script>
 
-<script src="{{ buildStaticUrl('/plugins/tagsinput/jquery.tagsinput.min.js') }}"></script>
+<script src="{{ buildStaticUrl( '/plugins/tagsinput/jquery.tagsinput.min.js' ) }}"></script>
 
-<script src="{{ buildStaticUrl('/js/food/set.js') }}"></script>
+
+<script src="{{ buildStaticUrl( '/js/food/set.js' ) }}"></script>
 {% endblock %}

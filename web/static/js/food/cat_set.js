@@ -45,7 +45,7 @@ var food_cat_set_ops = {
                     var callback = null;
                     if( res.code == 200 ){
                         callback = function(){
-                            window.location.href = common_ops.buildUrl("/food/cat-set");
+                            window.location.href = common_ops.buildUrl("/food/cat");
                         }
                     }
                     common_ops.alert( res.msg,callback );
