@@ -32,8 +32,10 @@ STATUS_MAPPING = {
 ACCESS_COUNT = 5
 
 MINA_APP = {
-    'appid': 'wxd6d468b482bfb735',
-    'appkey': '4f0c732dbd9891c34062e27437c73fe0',
+    'appid': 'xxxxxxxxxxxxxx换自己的',
+    'appkey': 'xxxxxxxxxxxxxx换自己的',
+    'paykey':'xxxxxxxxxxxxxx换自己的',
+    'mch_id':'xxxxxxxxxxxx换自己的',
     'callback_url': '/api/order/callback'
 }
 
