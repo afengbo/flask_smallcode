@@ -34,8 +34,6 @@ ACCESS_COUNT = 5
 MINA_APP = {
     'appid': 'wxd6d468b482bfb735',
     'appkey': '4f0c732dbd9891c34062e27437c73fe0',
-    'paykey': '',
-    'mch_id': '',
     'callback_url': '/api/order/callback'
 }
 
@@ -64,4 +62,3 @@ PAY_STATUS_DISPLAY_MAPPING = {
     "-6": "待确认",
     "-5": "待评价",
 }
-
